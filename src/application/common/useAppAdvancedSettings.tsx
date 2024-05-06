@@ -1,4 +1,8 @@
-import { MAINNET_PROGRAM_ID, RAYDIUM_MAINNET } from '@raydium-io/raydium-sdk'
+//////////ayad///////////
+// import { MAINNET_PROGRAM_ID, RAYDIUM_MAINNET } from '@raydium-io/raydium-sdk'
+import { MAINNET_PROGRAM_ID, RAYDIUM_MAINNET } from 'raydium-sdk-devnet'
+
+
 import { create } from 'zustand'
 import { ApiConfig } from './apiUrl.config'
 import { getLocalItem } from '@/functions/dom/jStorage'

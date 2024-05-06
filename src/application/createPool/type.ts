@@ -1,4 +1,7 @@
-import { LiquidityAssociatedPoolKeysV4 } from '@raydium-io/raydium-sdk'
+/////////ayad///////////
+// import { LiquidityAssociatedPoolKeysV4 } from '@raydium-io/raydium-sdk'
+import { LiquidityAssociatedPoolKeysV4 } from 'raydium-sdk-devnet'
+
 
 import { HexAddress } from '@/types/constants'
 

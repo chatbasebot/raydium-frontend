@@ -1,4 +1,8 @@
-import { Liquidity, Token } from '@raydium-io/raydium-sdk'
+/////////////ayad/////////////
+// import { Liquidity, Token } from '@raydium-io/raydium-sdk'
+import { Liquidity, Token } from 'raydium-sdk-devnet'
+
+
 import { PublicKey } from '@solana/web3.js'
 
 import { WSOLMint } from '@/application/token/quantumSOL'
