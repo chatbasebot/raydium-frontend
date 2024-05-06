@@ -10,7 +10,10 @@ import toPubString from '@/functions/format/toMintString'
 import { gt } from '@/functions/numberish/compare'
 import { add, mul } from '@/functions/numberish/operations'
 import toFraction from '@/functions/numberish/toFraction'
-import { Fraction, Price, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { Fraction, Price, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { Fraction, Price, TokenAmount } from 'raydium-sdk-devnet'
+
 import { useMemo } from 'react'
 
 export default function useConcentratedPendingYield(targetUserPositionAccount: UserPositionAccount | undefined) {
