@@ -1,6 +1,9 @@
 import { useEffect } from 'react'
 
-import { PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { PublicKeyish } from 'raydium-sdk-devnet'
+
 import { twMerge } from 'tailwind-merge'
 
 import copyToClipboard from '@/functions/dom/copyToClipboard'

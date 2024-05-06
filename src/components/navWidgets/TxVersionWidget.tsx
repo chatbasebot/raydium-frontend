@@ -1,5 +1,8 @@
 import useWallet from '@/application/wallet/useWallet'
-import { TxVersion } from '@raydium-io/raydium-sdk'
+// import { TxVersion } from '@raydium-io/raydium-sdk'
+
+import { TxVersion } from 'raydium-sdk-devnet'
+
 import Row from '../Row'
 import Switcher from '../Switcher'
 import Tooltip from '../Tooltip'
