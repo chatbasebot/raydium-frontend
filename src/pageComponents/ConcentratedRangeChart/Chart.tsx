@@ -9,7 +9,10 @@ import { getFirstNonZeroDecimal } from '@/functions/numberish/handleZero'
 import { mul } from '@/functions/numberish/operations'
 import { shakeZero } from '@/functions/numberish/shakeZero'
 import { useEvent } from '@/hooks/useEvent'
-import { Fraction } from '@raydium-io/raydium-sdk'
+// import { Fraction } from '@raydium-io/raydium-sdk'
+
+import { Fraction } from 'raydium-sdk-devnet'
+
 import Decimal from 'decimal.js'
 import { forwardRef, ReactNode, useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react'
 import { Area, AreaChart, ReferenceArea, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'

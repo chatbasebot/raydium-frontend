@@ -1,6 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 
-import { Clmm, Token } from '@raydium-io/raydium-sdk'
+// import { Clmm, Token } from '@raydium-io/raydium-sdk'
+
+import { Clmm, Token } from 'raydium-sdk-devnet'
+
 
 import { twMerge } from 'tailwind-merge'
 

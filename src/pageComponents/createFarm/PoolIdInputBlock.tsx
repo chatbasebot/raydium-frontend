@@ -1,6 +1,9 @@
 import { RefObject, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react'
 
-import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+// import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+
+import { ApiPoolInfoItem } from 'raydium-sdk-devnet'
+
 
 import useAppSettings from '@/application/common/useAppSettings'
 import useCreateFarms from '@/application/createFarm/useCreateFarm'

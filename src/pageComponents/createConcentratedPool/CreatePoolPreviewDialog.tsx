@@ -1,6 +1,9 @@
 import * as react from 'react'
 
-import { Fraction } from '@raydium-io/raydium-sdk'
+// import { Fraction } from '@raydium-io/raydium-sdk'
+
+import { Fraction } from 'raydium-sdk-devnet'
+
 import { twMerge } from 'tailwind-merge'
 
 import { ConcentratedStore } from '@/application/concentrated/useConcentrated'

@@ -1,4 +1,7 @@
-import { CurrencyAmount } from '@raydium-io/raydium-sdk'
+// import { CurrencyAmount } from '@raydium-io/raydium-sdk'
+
+import { CurrencyAmount } from 'raydium-sdk-devnet'
+
 
 import useAppSettings from '@/application/common/useAppSettings'
 import useToken from '@/application/token/useToken'

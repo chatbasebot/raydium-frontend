@@ -1,6 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 
-import { Fraction } from '@raydium-io/raydium-sdk'
+// import { Fraction } from '@raydium-io/raydium-sdk'
+
+import { Fraction } from 'raydium-sdk-devnet'
+
 
 import useAppSettings from '@/application/common/useAppSettings'
 import { HydratedConcentratedInfo } from '@/application/concentrated/type'

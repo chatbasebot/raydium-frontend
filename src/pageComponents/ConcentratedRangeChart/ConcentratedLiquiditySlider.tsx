@@ -1,4 +1,7 @@
-import { Clmm } from '@raydium-io/raydium-sdk'
+// import { Clmm } from '@raydium-io/raydium-sdk'
+
+import { Clmm } from 'raydium-sdk-devnet'
+
 import { useMemo, useRef } from 'react'
 
 import { getEpochInfo } from '@/application/clmmMigration/getEpochInfo'

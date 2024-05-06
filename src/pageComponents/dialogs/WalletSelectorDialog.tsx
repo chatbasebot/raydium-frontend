@@ -20,7 +20,10 @@ import Switcher from '@/components/Switcher'
 import Tooltip from '@/components/Tooltip'
 import { extensionMap } from '@/functions/dom/getExtension'
 import { getPlatformInfo } from '@/functions/dom/getPlatformInfo'
-import { TxVersion } from '@raydium-io/raydium-sdk'
+// import { TxVersion } from '@raydium-io/raydium-sdk'
+
+import { TxVersion } from 'raydium-sdk-devnet'
+
 import { isMobileDevice } from '@/functions/mobile'
 
 function WalletSelectorPanelItem({

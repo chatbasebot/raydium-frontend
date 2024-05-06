@@ -1,6 +1,9 @@
 import { useCallback, useDeferredValue, useMemo, useState } from 'react'
 
-import { PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { PublicKeyish } from 'raydium-sdk-devnet'
+
 
 import useAppSettings from '@/application/common/useAppSettings'
 import useNotification from '@/application/notification/useNotification'

@@ -1,4 +1,7 @@
-import { ApiClmmPositionLinePoint, Fraction, Percent } from '@raydium-io/raydium-sdk'
+// import { ApiClmmPositionLinePoint, Fraction, Percent } from '@raydium-io/raydium-sdk'
+
+import { ApiClmmPositionLinePoint, Fraction, Percent } from 'raydium-sdk-devnet'
+
 
 import { SplToken } from '@/application/token/type'
 import { isMintEqual } from '@/functions/judgers/areEqual'
