@@ -1,4 +1,7 @@
-import { Clmm } from '@raydium-io/raydium-sdk'
+// import { Clmm } from '@raydium-io/raydium-sdk'
+
+import { Clmm } from 'raydium-sdk-devnet'
+
 
 import assert from '@/functions/assert'
 import toPubString from '@/functions/format/toMintString'

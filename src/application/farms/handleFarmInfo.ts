@@ -8,7 +8,10 @@ import {
   TEN,
   TokenAmount,
   ZERO
-} from '@raydium-io/raydium-sdk'
+// } from '@raydium-io/raydium-sdk'
+
+} from 'raydium-sdk-devnet'
+
 
 import BN from 'bn.js'
 

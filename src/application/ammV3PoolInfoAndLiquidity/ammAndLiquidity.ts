@@ -32,7 +32,9 @@ import {
   fetchMultipleMintInfos,
   ApiPoolInfoItem,
   Token
-} from '@raydium-io/raydium-sdk'
+// } from '@raydium-io/raydium-sdk'
+} from 'raydium-sdk-devnet'
+
 import { Connection, PublicKey } from '@solana/web3.js'
 import { getEpochInfo } from '../clmmMigration/getEpochInfo'
 import { getSDKParsedClmmPoolInfo } from '../common/getSDKParsedClmmPoolInfo'

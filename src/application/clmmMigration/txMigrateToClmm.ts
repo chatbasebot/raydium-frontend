@@ -1,4 +1,6 @@
-import { Liquidity, ZERO } from '@raydium-io/raydium-sdk'
+// import { Liquidity, ZERO } from '@raydium-io/raydium-sdk'
+import { Liquidity, ZERO } from 'raydium-sdk-devnet'
+
 
 import BN from 'bn.js'
 

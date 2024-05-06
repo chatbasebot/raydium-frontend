@@ -1,6 +1,9 @@
 import { Connection } from '@solana/web3.js'
 
-import { PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { PublicKeyish } from 'raydium-sdk-devnet'
+
 
 import jFetch from '@/functions/dom/jFetch'
 import { toPub } from '@/functions/format/toMintString'

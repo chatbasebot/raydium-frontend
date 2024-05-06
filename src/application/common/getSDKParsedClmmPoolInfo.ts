@@ -1,4 +1,7 @@
-import { ApiClmmPoolsItem, Clmm, ClmmPoolInfo, ClmmPoolPersonalPosition, TokenAccount } from '@raydium-io/raydium-sdk'
+// import { ApiClmmPoolsItem, Clmm, ClmmPoolInfo, ClmmPoolPersonalPosition, TokenAccount } from '@raydium-io/raydium-sdk'
+import { ApiClmmPoolsItem, Clmm, ClmmPoolInfo, ClmmPoolPersonalPosition, TokenAccount } from 'raydium-sdk-devnet'
+
+
 import { Connection, PublicKey } from '@solana/web3.js'
 import useConnection from '@/application/connection/useConnection'
 import listToMap from '@/functions/format/listToMap'

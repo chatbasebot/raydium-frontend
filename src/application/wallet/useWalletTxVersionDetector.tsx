@@ -1,6 +1,9 @@
 import { useEffect } from 'react'
 
-import { TxVersion } from '@raydium-io/raydium-sdk'
+// import { TxVersion } from '@raydium-io/raydium-sdk'
+
+import { TxVersion } from 'raydium-sdk-devnet'
+
 
 import useWallet from './useWallet'
 

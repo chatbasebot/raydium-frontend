@@ -2,7 +2,10 @@ import useConnection from '../connection/useConnection'
 import useWallet from '../wallet/useWallet'
 
 import useAsyncEffect from '@/hooks/useAsyncEffect'
-import { Utils1216 } from '@raydium-io/raydium-sdk'
+// import { Utils1216 } from '@raydium-io/raydium-sdk'
+
+import { Utils1216 } from 'raydium-sdk-devnet'
+
 import useToken from '../token/useToken'
 import { hydrateNegativeMoneyInfo } from './hydrateCompensationInfo'
 import { useCompensationMoney } from './useCompensation'

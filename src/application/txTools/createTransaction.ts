@@ -1,4 +1,7 @@
-import { InnerSimpleTransaction } from '@raydium-io/raydium-sdk'
+// import { InnerSimpleTransaction } from '@raydium-io/raydium-sdk'
+
+import { InnerSimpleTransaction } from 'raydium-sdk-devnet'
+
 import { Transaction, TransactionInstruction } from '@solana/web3.js'
 
 import { TransactionQueue } from './handleTx'

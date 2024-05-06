@@ -1,6 +1,9 @@
 import { useRouter } from 'next/router'
 
-import { Token, TOKEN_PROGRAM_ID } from '@raydium-io/raydium-sdk'
+// import { Token, TOKEN_PROGRAM_ID } from '@raydium-io/raydium-sdk'
+
+import { Token, TOKEN_PROGRAM_ID } from 'raydium-sdk-devnet'
+
 
 import useLiquidity from '@/application/liquidity/useLiquidity'
 import { shakeUndifindedItem } from '@/functions/arrayMethods'

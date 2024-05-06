@@ -1,6 +1,9 @@
 import { useRouter } from 'next/router'
 
-import { WSOL } from '@raydium-io/raydium-sdk'
+// import { WSOL } from '@raydium-io/raydium-sdk'
+
+import { WSOL } from 'raydium-sdk-devnet'
+
 
 import { getAllSwapableRouteInfos } from '@/application/ammV3PoolInfoAndLiquidity/ammAndLiquidity'
 import { isMintEqual } from '@/functions/judgers/areEqual'

@@ -8,7 +8,10 @@ import {
   Token,
   TokenAmount,
   ZERO
-} from '@raydium-io/raydium-sdk'
+// } from '@raydium-io/raydium-sdk'
+
+} from 'raydium-sdk-devnet'
+
 import toPubString from '@/functions/format/toMintString'
 import { isToken, isTokenAmount } from '@/functions/judgers/dateType'
 import { omit } from '@/functions/objectMethods'

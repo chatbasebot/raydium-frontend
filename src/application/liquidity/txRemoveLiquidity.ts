@@ -1,4 +1,7 @@
-import { jsonInfo2PoolKeys, Liquidity } from '@raydium-io/raydium-sdk'
+// import { jsonInfo2PoolKeys, Liquidity } from '@raydium-io/raydium-sdk'
+
+import { jsonInfo2PoolKeys, Liquidity } from 'raydium-sdk-devnet'
+
 
 import useToken from '@/application/token/useToken'
 import txHandler, { lookupTableCache } from '@/application/txTools/handleTx'

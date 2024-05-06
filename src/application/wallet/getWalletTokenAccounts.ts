@@ -4,7 +4,10 @@ import {
   Spl,
   SPL_ACCOUNT_LAYOUT,
   TOKEN_PROGRAM_ID
-} from '@raydium-io/raydium-sdk'
+// } from '@raydium-io/raydium-sdk'
+
+} from 'raydium-sdk-devnet'
+
 import { Connection, PublicKey } from '@solana/web3.js'
 
 import toBN from '@/functions/numberish/toBN'

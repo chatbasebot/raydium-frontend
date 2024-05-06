@@ -5,7 +5,10 @@ import {
   Spl,
   TxVersion,
   splitTxAndSigners
-} from '@raydium-io/raydium-sdk'
+// } from '@raydium-io/raydium-sdk'
+
+} from 'raydium-sdk-devnet'
+
 import {
   createAssociatedTokenAccountInstruction,
   createCloseAccountInstruction,

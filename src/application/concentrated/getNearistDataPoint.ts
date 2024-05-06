@@ -1,4 +1,7 @@
-import { Clmm, Fraction } from '@raydium-io/raydium-sdk'
+// import { Clmm, Fraction } from '@raydium-io/raydium-sdk'
+
+import { Clmm, Fraction } from 'raydium-sdk-devnet'
+
 
 import {
   decimalToFraction, fractionToDecimal, recursivelyDecimalToFraction

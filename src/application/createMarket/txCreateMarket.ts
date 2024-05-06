@@ -1,4 +1,7 @@
-import { MarketV2 } from '@raydium-io/raydium-sdk'
+// import { MarketV2 } from '@raydium-io/raydium-sdk'
+
+import { MarketV2 } from 'raydium-sdk-devnet'
+
 
 import assert from '@/functions/assert'
 import toPubString, { toPub } from '@/functions/format/toMintString'

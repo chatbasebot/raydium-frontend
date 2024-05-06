@@ -1,4 +1,7 @@
-import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+// import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+
+import { ApiPoolInfoItem } from 'raydium-sdk-devnet'
+
 
 import toPubString from '@/functions/format/toMintString'
 import { PublicKeyish } from '@/types/constants'

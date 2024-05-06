@@ -1,5 +1,8 @@
 import BN from 'bn.js'
-import { TokenAmount } from '@raydium-io/raydium-sdk'
+// import { TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { TokenAmount } from 'raydium-sdk-devnet'
+
 
 import toPubString from '@/functions/format/toMintString'
 import toFraction from '@/functions/numberish/toFraction'

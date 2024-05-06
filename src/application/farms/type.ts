@@ -13,7 +13,10 @@ import {
   SplAccount,
   Token,
   TokenAmount
-} from '@raydium-io/raydium-sdk'
+// } from '@raydium-io/raydium-sdk'
+
+} from 'raydium-sdk-devnet'
+
 
 import { HexAddress } from '@/types/constants'
 import { UnionCover } from '@/types/generics'

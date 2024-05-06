@@ -1,5 +1,8 @@
 import assert from '@/functions/assert'
-import { Clmm, ZERO } from '@raydium-io/raydium-sdk'
+// import { Clmm, ZERO } from '@raydium-io/raydium-sdk'
+
+import { Clmm, ZERO } from 'raydium-sdk-devnet'
+
 
 import useConnection from '../connection/useConnection'
 import useNotification from '../notification/useNotification'

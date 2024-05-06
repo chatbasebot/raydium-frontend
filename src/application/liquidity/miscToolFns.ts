@@ -1,6 +1,9 @@
 import { PublicKey } from '@solana/web3.js'
 
-import { ApiPoolInfoItem, MARKET_STATE_LAYOUT_V3, PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { ApiPoolInfoItem, MARKET_STATE_LAYOUT_V3, PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { ApiPoolInfoItem, MARKET_STATE_LAYOUT_V3, PublicKeyish } from 'raydium-sdk-devnet'
+
 
 import useConnection from '@/application/connection/useConnection'
 import toPubString from '@/functions/format/toMintString'

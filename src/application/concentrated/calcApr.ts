@@ -1,4 +1,7 @@
-import { Clmm, ClmmPoolPersonalPosition, Price, PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { Clmm, ClmmPoolPersonalPosition, Price, PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { Clmm, ClmmPoolPersonalPosition, Price, PublicKeyish } from 'raydium-sdk-devnet'
+
 import { toPercent } from '@/functions/format/toPercent'
 import { add, div } from '@/functions/numberish/operations'
 import useToken from '../token/useToken'

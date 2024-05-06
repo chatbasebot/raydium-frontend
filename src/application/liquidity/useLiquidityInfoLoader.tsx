@@ -1,6 +1,9 @@
 import { useRouter } from 'next/router'
 
-import { ApiPoolInfo, ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+// import { ApiPoolInfo, ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+
+import { ApiPoolInfo, ApiPoolInfoItem } from 'raydium-sdk-devnet'
+
 
 import useConnection from '@/application/connection/useConnection'
 import useToken from '@/application/token/useToken'

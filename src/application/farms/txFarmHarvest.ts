@@ -1,4 +1,7 @@
-import { Farm, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { Farm, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { Farm, TokenAmount } from 'raydium-sdk-devnet'
+
 
 import txHandler, { lookupTableCache } from '@/application/txTools/handleTx'
 import {

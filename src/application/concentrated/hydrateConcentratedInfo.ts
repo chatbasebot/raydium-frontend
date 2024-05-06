@@ -1,4 +1,7 @@
-import { ClmmPoolPersonalPosition, Price } from '@raydium-io/raydium-sdk'
+// import { ClmmPoolPersonalPosition, Price } from '@raydium-io/raydium-sdk'
+
+import { ClmmPoolPersonalPosition, Price } from 'raydium-sdk-devnet'
+
 import { PublicKey } from '@solana/web3.js'
 
 import { BN } from 'bn.js'

@@ -4,7 +4,10 @@ import { div } from '@/functions/numberish/operations'
 import toBN from '@/functions/numberish/toBN'
 import toFraction from '@/functions/numberish/toFraction'
 import { toString } from '@/functions/numberish/toString'
-import { Clmm, ClmmConfigInfo } from '@raydium-io/raydium-sdk'
+// import { Clmm, ClmmConfigInfo } from '@raydium-io/raydium-sdk'
+
+import { Clmm, ClmmConfigInfo } from 'raydium-sdk-devnet'
+
 import { PublicKey } from '@solana/web3.js'
 import { useEffect, useRef } from 'react'
 import useAppAdvancedSettings from '../common/useAppAdvancedSettings'

@@ -1,6 +1,9 @@
 import { useRouter } from 'next/router'
 import { useCallback, useEffect, useState } from 'react'
-import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+// import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+
+import { ApiPoolInfoItem } from 'raydium-sdk-devnet'
+
 import { ParsedUrlQuery } from 'querystring'
 
 import useAppSettings from '@/application/common/useAppSettings'

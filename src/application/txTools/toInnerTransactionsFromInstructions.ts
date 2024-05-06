@@ -1,4 +1,7 @@
-import { InnerSimpleTransaction, InstructionType, TxVersion } from '@raydium-io/raydium-sdk'
+// import { InnerSimpleTransaction, InstructionType, TxVersion } from '@raydium-io/raydium-sdk'
+
+import { InnerSimpleTransaction, InstructionType, TxVersion } from 'raydium-sdk-devnet'
+
 import { PublicKey, Signer, TransactionInstruction } from '@solana/web3.js'
 
 /**

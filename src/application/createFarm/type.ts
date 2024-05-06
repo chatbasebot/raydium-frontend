@@ -1,4 +1,7 @@
-import { Percent, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { Percent, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { Percent, TokenAmount } from 'raydium-sdk-devnet'
+
 
 import { HexAddress, Numberish } from '@/types/constants'
 

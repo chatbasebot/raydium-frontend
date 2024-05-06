@@ -1,4 +1,7 @@
-import { TOKEN_2022_PROGRAM_ID } from '@solana/spl-token'
+// import { TOKEN_2022_PROGRAM_ID } from '@solana/spl-token'
+
+import { TOKEN_2022_PROGRAM_ID } from 'raydium-sdk-devnet'
+
 
 import { shakeUndifindedItem, unifyItem } from '@/functions/arrayMethods'
 import toPubString from '@/functions/format/toMintString'

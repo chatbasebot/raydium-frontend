@@ -1,4 +1,7 @@
-import { CurrencyAmount, Fraction, Price, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { CurrencyAmount, Fraction, Price, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { CurrencyAmount, Fraction, Price, Token, TokenAmount } from 'raydium-sdk-devnet'
+
 
 import { HexAddress } from '@/types/constants'
 

@@ -1,4 +1,7 @@
-import { forecastTransactionSize, InnerSimpleTransaction, InstructionType, TradeV2 } from '@raydium-io/raydium-sdk'
+// import { forecastTransactionSize, InnerSimpleTransaction, InstructionType, TradeV2 } from '@raydium-io/raydium-sdk'
+
+import { forecastTransactionSize, InnerSimpleTransaction, InstructionType, TradeV2 } from 'raydium-sdk-devnet'
+
 import { ComputeBudgetProgram, SignatureResult, TransactionInstruction } from '@solana/web3.js'
 
 import assert from '@/functions/assert'

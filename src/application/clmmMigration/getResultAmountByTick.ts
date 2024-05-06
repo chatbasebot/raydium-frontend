@@ -1,5 +1,7 @@
 import { toTokenAmount } from '@/functions/format/toTokenAmount'
-import { Clmm, ClmmPoolInfo, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { Clmm, ClmmPoolInfo, TokenAmount } from '@raydium-io/raydium-sdk'
+import { Clmm, ClmmPoolInfo, TokenAmount } from 'raydium-sdk-devnet'
+
 import { getMultiMintInfos } from './getMultiMintInfos'
 import { getEpochInfo } from './getEpochInfo'
 

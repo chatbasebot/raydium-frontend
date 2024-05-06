@@ -1,6 +1,9 @@
 import { Connection } from '@solana/web3.js'
 
-import { Farm } from '@raydium-io/raydium-sdk'
+// import { Farm } from '@raydium-io/raydium-sdk'
+
+import { Farm } from 'raydium-sdk-devnet'
+
 
 import txHandler, { SingleTxOption, lookupTableCache } from '@/application/txTools/handleTx'
 import assert from '@/functions/assert'

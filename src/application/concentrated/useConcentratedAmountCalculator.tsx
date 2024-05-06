@@ -1,4 +1,7 @@
-import { Clmm, GetTransferAmountFee, getTransferAmountFee } from '@raydium-io/raydium-sdk'
+// import { Clmm, GetTransferAmountFee, getTransferAmountFee } from '@raydium-io/raydium-sdk'
+
+import { Clmm, GetTransferAmountFee, getTransferAmountFee } from 'raydium-sdk-devnet'
+
 import { EpochInfo } from '@solana/web3.js'
 import BN from 'bn.js'
 import { useCallback, useEffect, useMemo } from 'react'

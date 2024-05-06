@@ -1,4 +1,7 @@
-import { Price, PublicKeyish, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { Price, PublicKeyish, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { Price, PublicKeyish, TokenAmount } from 'raydium-sdk-devnet'
+
 import { PublicKey } from '@solana/web3.js'
 
 import { produce } from 'immer'

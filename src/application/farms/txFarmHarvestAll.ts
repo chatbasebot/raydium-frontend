@@ -1,4 +1,7 @@
-import { Farm } from '@raydium-io/raydium-sdk'
+// import { Farm } from '@raydium-io/raydium-sdk'
+
+import { Farm } from 'raydium-sdk-devnet'
+
 
 import { createTxHandler, lookupTableCache, TransactionQueue } from '@/application/txTools/handleTx'
 import {

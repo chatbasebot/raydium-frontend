@@ -1,4 +1,7 @@
-import { ApiClmmConfigItem } from '@raydium-io/raydium-sdk'
+// import { ApiClmmConfigItem } from '@raydium-io/raydium-sdk'
+
+import { ApiClmmConfigItem } from 'raydium-sdk-devnet'
+
 
 import jFetch from '@/functions/dom/jFetch'
 import { toPercent } from '@/functions/format/toPercent'

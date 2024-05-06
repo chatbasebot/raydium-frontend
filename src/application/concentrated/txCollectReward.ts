@@ -1,5 +1,8 @@
 import assert from '@/functions/assert'
-import { Clmm, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { Clmm, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { Clmm, TokenAmount } from 'raydium-sdk-devnet'
+
 
 import { getComputeBudgetConfig } from '../txTools/getComputeBudgetConfig'
 import txHandler, { lookupTableCache } from '../txTools/handleTx'

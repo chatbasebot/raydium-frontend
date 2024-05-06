@@ -1,7 +1,9 @@
 import { createTimeoutMap } from '@/functions/createTimeoutMap'
 import toPubString, { toPub } from '@/functions/format/toMintString'
 import { MayArray, PublicKeyish } from '@/types/constants'
-import { ReturnTypeFetchMultipleMintInfo, fetchMultipleMintInfos } from '@raydium-io/raydium-sdk'
+// import { ReturnTypeFetchMultipleMintInfo, fetchMultipleMintInfos } from '@raydium-io/raydium-sdk'
+import { ReturnTypeFetchMultipleMintInfo, fetchMultipleMintInfos } from 'raydium-sdk-devnet'
+
 import useConnection from '../connection/useConnection'
 import { shakeUndifindedItem } from '@/functions/arrayMethods'
 

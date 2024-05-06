@@ -1,6 +1,9 @@
 import { Connection } from '@solana/web3.js'
 
-import { Farm, FarmCreateInstructionParamsV6, FarmRewardInfo } from '@raydium-io/raydium-sdk'
+// import { Farm, FarmCreateInstructionParamsV6, FarmRewardInfo } from '@raydium-io/raydium-sdk'
+
+import { Farm, FarmCreateInstructionParamsV6, FarmRewardInfo } from 'raydium-sdk-devnet'
+
 
 import { createTransactionCollector } from '@/application/txTools/createTransaction'
 import txHandler, { SingleTxOption, lookupTableCache } from '@/application/txTools/handleTx'

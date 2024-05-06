@@ -3,7 +3,10 @@ import assert from '@/functions/assert'
 import asyncMap from '@/functions/asyncMap'
 import { toPub } from '@/functions/format/toMintString'
 import { div, mul } from '@/functions/numberish/operations'
-import { Clmm, Fraction } from '@raydium-io/raydium-sdk'
+// import { Clmm, Fraction } from '@raydium-io/raydium-sdk'
+
+import { Clmm, Fraction } from 'raydium-sdk-devnet'
+
 import useConnection from '../connection/useConnection'
 import { getTokenProgramId, isToken2022 } from '../token/isToken2022'
 import { fractionToDecimal } from '../txTools/decimal2Fraction'

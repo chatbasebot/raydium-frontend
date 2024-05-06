@@ -8,7 +8,10 @@ import {
   Percent,
   Price,
   TokenAmount
-} from '@raydium-io/raydium-sdk'
+// } from '@raydium-io/raydium-sdk'
+} from 'raydium-sdk-devnet'
+
+
 import { PublicKey } from '@solana/web3.js'
 
 import BN from 'bn.js'

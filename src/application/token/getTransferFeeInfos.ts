@@ -2,7 +2,10 @@ import toPubString from '@/functions/format/toMintString'
 import { toTokenAmount } from '@/functions/format/toTokenAmount'
 import { isArray } from '@/functions/judgers/dateType'
 import { minus } from '@/functions/numberish/operations'
-import { ReturnTypeFetchMultipleMintInfos, TokenAmount, getTransferAmountFee } from '@raydium-io/raydium-sdk'
+// import { ReturnTypeFetchMultipleMintInfos, TokenAmount, getTransferAmountFee } from '@raydium-io/raydium-sdk'
+
+import { ReturnTypeFetchMultipleMintInfos, TokenAmount, getTransferAmountFee } from 'raydium-sdk-devnet'
+
 import { EpochInfo } from '@solana/web3.js'
 import { getEpochInfo } from '../clmmMigration/getEpochInfo'
 import { getMultiMintInfos } from '../clmmMigration/getMultiMintInfos'

@@ -1,6 +1,9 @@
 import useWallet from '@/application/wallet/useWallet'
 import toPubString from '@/functions/format/toMintString'
-import { PublicKeyish, ZERO } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish, ZERO } from '@raydium-io/raydium-sdk'
+
+import { PublicKeyish, ZERO } from 'raydium-sdk-devnet'
+
 
 export function getMaxBalanceBNIfNotATA(mint: PublicKeyish | undefined) {
   if (!mint) return undefined

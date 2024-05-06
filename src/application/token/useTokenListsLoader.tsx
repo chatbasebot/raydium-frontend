@@ -1,4 +1,7 @@
-import { ApiClmmPoolsItem, ApiPoolInfo, LiquidityPoolsJsonFile, Token, WSOL } from '@raydium-io/raydium-sdk'
+// import { ApiClmmPoolsItem, ApiPoolInfo, LiquidityPoolsJsonFile, Token, WSOL } from '@raydium-io/raydium-sdk'
+
+import { ApiClmmPoolsItem, ApiPoolInfo, LiquidityPoolsJsonFile, Token, WSOL } from 'raydium-sdk-devnet'
+
 
 import { addItems, mergeWithOld, shakeUndifindedItem } from '@/functions/arrayMethods'
 import jFetch from '@/functions/dom/jFetch'

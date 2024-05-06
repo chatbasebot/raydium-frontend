@@ -3,7 +3,10 @@ import assert from '@/functions/assert'
 import { mul } from '@/functions/numberish/operations'
 import toBN from '@/functions/numberish/toBN'
 import { Numberish } from '@/types/constants'
-import { InstructionType, Spl, WSOL } from '@raydium-io/raydium-sdk'
+// import { InstructionType, Spl, WSOL } from '@raydium-io/raydium-sdk'
+
+import { InstructionType, Spl, WSOL } from 'raydium-sdk-devnet'
+
 import { PublicKey, Signer, TransactionInstruction } from '@solana/web3.js'
 import { getTokenProgramId } from '../token/isToken2022'
 import { toInnerTransactionsFromInstructions } from '../txTools/toInnerTransactionsFromInstructions'

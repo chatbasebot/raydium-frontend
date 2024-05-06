@@ -1,4 +1,7 @@
-import { Farm, FarmCreateInstructionParamsV6 } from '@raydium-io/raydium-sdk'
+// import { Farm, FarmCreateInstructionParamsV6 } from '@raydium-io/raydium-sdk'
+
+import { Farm, FarmCreateInstructionParamsV6 } from 'raydium-sdk-devnet'
+
 
 import { createTransactionCollector } from '@/application/txTools/createTransaction'
 import txHandler, { SingleTxOption } from '@/application/txTools/handleTx'

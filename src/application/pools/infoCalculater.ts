@@ -1,4 +1,7 @@
-import { Token, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { Token, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { Token, TokenAmount } from 'raydium-sdk-devnet'
+
 
 import { SplToken } from '@/application/token/type'
 import { toTokenAmount } from '@/functions/format/toTokenAmount'

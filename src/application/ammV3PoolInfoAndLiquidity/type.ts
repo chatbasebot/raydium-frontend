@@ -1,4 +1,6 @@
-import { ClmmPoolInfo, ApiPoolInfoItem, PoolType } from '@raydium-io/raydium-sdk'
+// import { ClmmPoolInfo, ApiPoolInfoItem, PoolType } from '@raydium-io/raydium-sdk'
+import { ClmmPoolInfo, ApiPoolInfoItem, PoolType } from 'raydium-sdk-devnet'
+
 
 export type BestResultStartTimeInfo = {
   ammId: string

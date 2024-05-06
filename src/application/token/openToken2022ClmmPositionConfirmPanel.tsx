@@ -19,7 +19,10 @@ import { toString } from '@/functions/numberish/toString'
 import { shrinkToValue } from '@/functions/shrinkToValue'
 import { HexAddress, Numberish } from '@/types/constants'
 import { MayArray } from '@/types/generics'
-import { PublicKeyish, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { PublicKeyish, Token, TokenAmount } from 'raydium-sdk-devnet'
+
 import { twMerge } from 'tailwind-merge'
 import useAppSettings from '../common/useAppSettings'
 import { HydratedConcentratedInfo, UserPositionAccount } from '../concentrated/type'

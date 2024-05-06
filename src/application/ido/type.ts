@@ -1,5 +1,8 @@
 import BN from 'bn.js'
-import { Price } from '@raydium-io/raydium-sdk'
+// import { Price } from '@raydium-io/raydium-sdk'
+
+import { Price } from 'raydium-sdk-devnet'
+
 
 import {
   DateInfo,

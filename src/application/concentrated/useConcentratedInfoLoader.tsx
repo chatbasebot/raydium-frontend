@@ -1,7 +1,10 @@
 import { use, useMemo } from 'react'
 import { useRouter } from 'next/router'
 
-import { Clmm, ApiClmmPoolsItem } from '@raydium-io/raydium-sdk'
+// import { Clmm, ApiClmmPoolsItem } from '@raydium-io/raydium-sdk'
+
+import { Clmm, ApiClmmPoolsItem } from 'raydium-sdk-devnet'
+
 
 import useToken from '@/application/token/useToken'
 import jFetch from '@/functions/dom/jFetch'

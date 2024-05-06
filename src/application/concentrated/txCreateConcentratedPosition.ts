@@ -1,4 +1,7 @@
-import { Clmm } from '@raydium-io/raydium-sdk'
+// import { Clmm } from '@raydium-io/raydium-sdk'
+
+import { Clmm } from 'raydium-sdk-devnet'
+
 
 import txHandler, { lookupTableCache } from '@/application/txTools/handleTx'
 import useWallet from '@/application/wallet/useWallet'

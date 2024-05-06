@@ -1,4 +1,7 @@
-import { MAINNET_PROGRAM_ID, PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { MAINNET_PROGRAM_ID, PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { MAINNET_PROGRAM_ID, PublicKeyish } from 'raydium-sdk-devnet'
+
 
 import { create } from 'zustand'
 

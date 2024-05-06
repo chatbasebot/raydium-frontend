@@ -1,4 +1,7 @@
-import { CacheLTA, InnerSimpleTransaction, TxVersion } from '@raydium-io/raydium-sdk'
+// import { CacheLTA, InnerSimpleTransaction, TxVersion } from '@raydium-io/raydium-sdk'
+
+import { CacheLTA, InnerSimpleTransaction, TxVersion } from 'raydium-sdk-devnet'
+
 import {
   Connection,
   Context,

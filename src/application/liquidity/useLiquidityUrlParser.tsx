@@ -15,7 +15,10 @@ import { useCallback, useEffect, useState } from 'react'
 import useConnection from '../connection/useConnection'
 import { getUserTokenEvenNotExist } from '../token/getUserTokenEvenNotExist'
 import useLiquidity from './useLiquidity'
-import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+// import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+
+import { ApiPoolInfoItem } from 'raydium-sdk-devnet'
+
 
 export default function useLiquidityUrlParser() {
   const { query, pathname, replace } = useRouter()

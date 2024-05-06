@@ -2,7 +2,10 @@ import txHandler, { HandleFnOptions, SingleTxOption } from '@/application/txTool
 import { padZero } from '@/functions/numberish/handleZero'
 import { div } from '@/functions/numberish/operations'
 import { toString } from '@/functions/numberish/toString'
-import { InstructionType, Spl, WSOL } from '@raydium-io/raydium-sdk'
+// import { InstructionType, Spl, WSOL } from '@raydium-io/raydium-sdk'
+
+import { InstructionType, Spl, WSOL } from 'raydium-sdk-devnet'
+
 import { PublicKey, Signer, TransactionInstruction } from '@solana/web3.js'
 import { getTokenProgramId } from '../token/isToken2022'
 import { toInnerTransactionsFromInstructions } from '../txTools/toInnerTransactionsFromInstructions'

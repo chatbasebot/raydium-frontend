@@ -1,4 +1,7 @@
-import { ReturnTypeGetAllRouteComputeAmountOut, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { ReturnTypeGetAllRouteComputeAmountOut, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { ReturnTypeGetAllRouteComputeAmountOut, Token, TokenAmount } from 'raydium-sdk-devnet'
+
 
 import { twMerge } from 'tailwind-merge'
 

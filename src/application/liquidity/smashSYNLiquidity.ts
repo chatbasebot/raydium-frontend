@@ -1,6 +1,9 @@
 import listToMap from '@/functions/format/listToMap'
 import toPubString from '@/functions/format/toMintString'
-import { PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { PublicKeyish } from 'raydium-sdk-devnet'
+
 import useConnection from '../connection/useConnection'
 import useToken from '../token/useToken'
 import useWallet from '../wallet/useWallet'

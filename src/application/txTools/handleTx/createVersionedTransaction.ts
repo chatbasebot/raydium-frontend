@@ -1,4 +1,7 @@
-import { buildSimpleTransaction, InnerSimpleTransaction, LOOKUP_TABLE_CACHE, TxVersion } from '@raydium-io/raydium-sdk'
+// import { buildSimpleTransaction, InnerSimpleTransaction, LOOKUP_TABLE_CACHE, TxVersion } from '@raydium-io/raydium-sdk'
+
+import { buildSimpleTransaction, InnerSimpleTransaction, LOOKUP_TABLE_CACHE, TxVersion } from 'raydium-sdk-devnet'
+
 import { Connection, PublicKey, Transaction, VersionedTransaction } from '@solana/web3.js'
 
 export async function buildTransactionsFromSDKInnerTransactions({

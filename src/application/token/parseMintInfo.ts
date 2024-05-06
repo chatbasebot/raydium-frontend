@@ -1,4 +1,7 @@
-import { PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { PublicKeyish } from 'raydium-sdk-devnet'
+
 import { TokenMintInfo, getOnlineTokenInfo } from './getOnlineTokenInfo'
 import { gte, isMeaningfulNumber, lt } from '@/functions/numberish/compare'
 import toPubString from '@/functions/format/toMintString'

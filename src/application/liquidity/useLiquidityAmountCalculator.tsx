@@ -1,6 +1,9 @@
 import { useEffect } from 'react'
 
-import { jsonInfo2PoolKeys, Liquidity, ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+// import { jsonInfo2PoolKeys, Liquidity, ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+
+import { jsonInfo2PoolKeys, Liquidity, ApiPoolInfoItem } from 'raydium-sdk-devnet'
+
 
 import useAppSettings from '@/application/common/useAppSettings'
 import { deUIToken, deUITokenAmount, toUITokenAmount } from '@/application/token/quantumSOL'

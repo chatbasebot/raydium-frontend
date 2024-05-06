@@ -1,4 +1,7 @@
-import { SHOW_INFO, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { SHOW_INFO, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { SHOW_INFO, TokenAmount } from 'raydium-sdk-devnet'
+
 import { PublicKey } from '@solana/web3.js'
 import { SplToken } from '../token/type'
 

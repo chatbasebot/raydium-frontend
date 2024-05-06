@@ -3,7 +3,10 @@ import {
   ApiPoolInfoItem as LiquidityJsonInfo,
   jsonInfo2PoolKeys,
   TradeV2
-} from '@raydium-io/raydium-sdk'
+// } from '@raydium-io/raydium-sdk'
+
+} from 'raydium-sdk-devnet'
+
 
 import useConnection from '@/application/connection/useConnection'
 import { shakeUndifindedItem } from '@/functions/arrayMethods'

@@ -1,6 +1,8 @@
 import toFraction from '@/functions/numberish/toFraction'
 import { Numberish } from '@/types/constants'
-import { Clmm, ClmmPoolInfo } from '@raydium-io/raydium-sdk'
+// import { Clmm, ClmmPoolInfo } from '@raydium-io/raydium-sdk'
+import { Clmm, ClmmPoolInfo } from 'raydium-sdk-devnet'
+
 import { decimalToFraction, fractionToDecimal } from '../txTools/decimal2Fraction'
 
 export function getExactPriceAndTick(params: { price: Numberish; info: ClmmPoolInfo; baseSide: 'base' | 'quote' }) {

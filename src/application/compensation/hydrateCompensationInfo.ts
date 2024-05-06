@@ -1,7 +1,9 @@
 import { toTokenAmount } from '@/functions/format/toTokenAmount'
 import { isPubEqual } from '@/functions/judgers/areEqual'
 import { mul } from '@/functions/numberish/operations'
-import { SHOW_INFO } from '@raydium-io/raydium-sdk'
+// import { SHOW_INFO } from '@raydium-io/raydium-sdk'
+import { SHOW_INFO } from 'raydium-sdk-devnet'
+
 import useLiquidity from '../liquidity/useLiquidity'
 import useToken from '../token/useToken'
 import { HydratedCompensationInfoItem } from './type'

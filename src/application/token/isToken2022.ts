@@ -1,7 +1,9 @@
 import toPubString from '@/functions/format/toMintString'
 import { isArray, isObject, isPubKeyish } from '@/functions/judgers/dateType'
 import { MayArray } from '@/types/generics'
-import { PublicKeyish, Token } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish, Token } from '@raydium-io/raydium-sdk'
+import { PublicKeyish, Token } from 'raydium-sdk-devnet'
+
 import { TOKEN_2022_PROGRAM_ID, TOKEN_PROGRAM_ID } from '@solana/spl-token'
 import { HydratedTokenJsonInfo, SplToken, TokenJson } from './type'
 import useToken from './useToken'

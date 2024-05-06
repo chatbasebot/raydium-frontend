@@ -1,4 +1,7 @@
-import { Token } from '@raydium-io/raydium-sdk'
+// import { Token } from '@raydium-io/raydium-sdk'
+
+import { Token } from 'raydium-sdk-devnet'
+
 
 import { HexAddress, SrcAddress } from '@/types/constants'
 

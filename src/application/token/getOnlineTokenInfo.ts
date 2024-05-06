@@ -1,4 +1,7 @@
-import { Fraction, TOKEN_PROGRAM_ID } from '@raydium-io/raydium-sdk'
+// import { Fraction, TOKEN_PROGRAM_ID } from '@raydium-io/raydium-sdk'
+
+import { Fraction, TOKEN_PROGRAM_ID } from 'raydium-sdk-devnet'
+
 import { AccountInfo } from '@solana/web3.js'
 
 import toPubString, { toPub } from '@/functions/format/toMintString'

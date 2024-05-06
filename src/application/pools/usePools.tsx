@@ -1,4 +1,7 @@
-import { Price } from '@raydium-io/raydium-sdk'
+// import { Price } from '@raydium-io/raydium-sdk'
+
+import { Price } from 'raydium-sdk-devnet'
+
 
 import { create } from 'zustand'
 

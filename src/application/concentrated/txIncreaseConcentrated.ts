@@ -1,4 +1,7 @@
-import { Clmm } from '@raydium-io/raydium-sdk'
+// import { Clmm } from '@raydium-io/raydium-sdk'
+
+import { Clmm } from 'raydium-sdk-devnet'
+
 
 import { shakeUndifindedItem } from '@/functions/arrayMethods'
 import assert from '@/functions/assert'

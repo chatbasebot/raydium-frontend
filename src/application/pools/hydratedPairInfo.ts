@@ -1,4 +1,7 @@
-import { TokenAmount } from '@raydium-io/raydium-sdk'
+// import { TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { TokenAmount } from 'raydium-sdk-devnet'
+
 
 import { toTokenAmount } from '@/functions/format/toTokenAmount'
 import toTokenPrice from '@/functions/format/toTokenPrice'

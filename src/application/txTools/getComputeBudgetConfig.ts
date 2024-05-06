@@ -1,5 +1,8 @@
 import jFetch from '@/functions/dom/jFetch'
-import { ComputeBudgetConfig } from '@raydium-io/raydium-sdk'
+// import { ComputeBudgetConfig } from '@raydium-io/raydium-sdk'
+
+import { ComputeBudgetConfig } from 'raydium-sdk-devnet'
+
 import useAppSettings from '../common/useAppSettings'
 import { SOL } from '../token/quantumSOL'
 import { isNumber } from '@/functions/judgers/dateType'

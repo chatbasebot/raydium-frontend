@@ -1,4 +1,7 @@
-import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+// import { ApiPoolInfoItem } from '@raydium-io/raydium-sdk'
+
+import { ApiPoolInfoItem } from 'raydium-sdk-devnet'
+
 
 export default function searchJsonLiquidityInfo(
   partialJsonInfo: Partial<ApiPoolInfoItem>,

@@ -1,4 +1,7 @@
-import { ApiPoolInfoItem as LiquidityJsonInfo, PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { ApiPoolInfoItem as LiquidityJsonInfo, PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { ApiPoolInfoItem as LiquidityJsonInfo, PublicKeyish } from 'raydium-sdk-devnet'
+
 
 import toPubString from '@/functions/format/toMintString'
 
