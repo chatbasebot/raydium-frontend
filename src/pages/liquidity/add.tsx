@@ -1,6 +1,9 @@
 import { createRef, ReactNode, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
-import { Percent } from '@raydium-io/raydium-sdk'
+// import { Percent } from '@raydium-io/raydium-sdk'
+
+import { Percent } from 'raydium-sdk-devnet'
+
 
 import BN from 'bn.js'
 import { twMerge } from 'tailwind-merge'

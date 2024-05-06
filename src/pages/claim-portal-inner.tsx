@@ -30,7 +30,10 @@ import { ReactNode } from 'react'
 import { twMerge } from 'tailwind-merge'
 import RefreshCircle from '@/components/RefreshCircle'
 import useToken from '@/application/token/useToken'
-import { Fraction, PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { Fraction, PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { Fraction, PublicKeyish } from 'raydium-sdk-devnet'
+
 import { Badge } from '@/components/Badge'
 import { toTokenAmount } from '@/functions/format/toTokenAmount'
 

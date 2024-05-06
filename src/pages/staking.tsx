@@ -1,4 +1,7 @@
-import { Fraction, TokenAmount, ZERO } from '@raydium-io/raydium-sdk'
+// import { Fraction, TokenAmount, ZERO } from '@raydium-io/raydium-sdk'
+
+import { Fraction, TokenAmount, ZERO } from 'raydium-sdk-devnet'
+
 import { ReactNode, useMemo } from 'react'
 import { twMerge } from 'tailwind-merge'
 

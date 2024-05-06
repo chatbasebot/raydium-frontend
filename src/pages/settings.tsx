@@ -1,6 +1,9 @@
 import { ReactNode, useEffect, useMemo, useState } from 'react'
 
-import { DEVNET_PROGRAM_ID, MAINNET_PROGRAM_ID } from '@raydium-io/raydium-sdk'
+// import { DEVNET_PROGRAM_ID, MAINNET_PROGRAM_ID } from '@raydium-io/raydium-sdk'
+
+import { DEVNET_PROGRAM_ID, MAINNET_PROGRAM_ID } from 'raydium-sdk-devnet'
+
 
 import { produce } from 'immer'
 

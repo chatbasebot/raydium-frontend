@@ -1,6 +1,9 @@
 import { createRef, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
-import { Fraction, ZERO } from '@raydium-io/raydium-sdk'
+// import { Fraction, ZERO } from '@raydium-io/raydium-sdk'
+
+import { Fraction, ZERO } from 'raydium-sdk-devnet'
+
 
 import Decimal from 'decimal.js'
 import { twMerge } from 'tailwind-merge'

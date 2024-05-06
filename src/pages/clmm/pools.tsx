@@ -1,6 +1,9 @@
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 
-import { CurrencyAmount, ZERO } from '@raydium-io/raydium-sdk'
+// import { CurrencyAmount, ZERO } from '@raydium-io/raydium-sdk'
+
+import { CurrencyAmount, ZERO } from 'raydium-sdk-devnet'
+
 import { PublicKey } from '@solana/web3.js'
 
 import { twMerge } from 'tailwind-merge'

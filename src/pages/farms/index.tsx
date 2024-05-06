@@ -1,6 +1,9 @@
 import { Fragment, ReactNode, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 
-import { PublicKeyish, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { PublicKeyish, TokenAmount } from 'raydium-sdk-devnet'
+
 
 import { twMerge } from 'tailwind-merge'
 
