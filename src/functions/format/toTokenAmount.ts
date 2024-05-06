@@ -11,7 +11,10 @@ import { HydratedTokenJsonInfo } from '@/application/token/type'
 import parseNumberInfo from '@/functions/numberish/parseNumberInfo'
 import toBN from '@/functions/numberish/toBN'
 import { Numberish } from '@/types/constants'
-import { Fraction, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { Fraction, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { Fraction, Token, TokenAmount } from 'raydium-sdk-devnet'
+
 import BN from 'bn.js'
 import { isToken } from '../judgers/dateType'
 import toFraction from '../numberish/toFraction'

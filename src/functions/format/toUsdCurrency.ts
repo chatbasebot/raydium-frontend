@@ -1,4 +1,7 @@
-import { CurrencyAmount } from '@raydium-io/raydium-sdk'
+// import { CurrencyAmount } from '@raydium-io/raydium-sdk'
+
+import { CurrencyAmount } from 'raydium-sdk-devnet'
+
 
 import toBN from '@/functions/numberish/toBN'
 import { Numberish } from '@/types/constants'

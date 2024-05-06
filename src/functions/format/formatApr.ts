@@ -1,4 +1,7 @@
-import { Percent } from '@raydium-io/raydium-sdk'
+// import { Percent } from '@raydium-io/raydium-sdk'
+
+import { Percent } from 'raydium-sdk-devnet'
+
 
 import { gt } from '../numberish/compare'
 import toFraction from '../numberish/toFraction'

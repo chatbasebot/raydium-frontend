@@ -1,4 +1,7 @@
-import { Fraction } from '@raydium-io/raydium-sdk'
+// import { Fraction } from '@raydium-io/raydium-sdk'
+
+import { Fraction } from 'raydium-sdk-devnet'
+
 
 import { Numberish } from '@/types/constants'
 

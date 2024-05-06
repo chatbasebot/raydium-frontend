@@ -1,5 +1,8 @@
 import { Numberish } from '@/types/constants'
-import { Percent } from '@raydium-io/raydium-sdk'
+// import { Percent } from '@raydium-io/raydium-sdk'
+
+import { Percent } from 'raydium-sdk-devnet'
+
 import parseNumberInfo from '../numberish/parseNumberInfo'
 
 /**

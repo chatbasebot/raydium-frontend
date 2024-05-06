@@ -1,6 +1,9 @@
 import { PublicKey } from '@solana/web3.js'
 
-import { PublicKeyish } from '@raydium-io/raydium-sdk'
+// import { PublicKeyish } from '@raydium-io/raydium-sdk'
+
+import { PublicKeyish } from 'raydium-sdk-devnet'
+
 
 import { isArray, isObject, isString } from '../judgers/dateType'
 import { objectMap } from '../objectMethods'

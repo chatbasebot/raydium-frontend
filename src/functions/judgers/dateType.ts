@@ -2,7 +2,10 @@ import { PublicKey } from '@solana/web3.js'
 
 import BN from 'bn.js'
 import Decimal from 'decimal.js'
-import { Fraction, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+// import { Fraction, Token, TokenAmount } from '@raydium-io/raydium-sdk'
+
+import { Fraction, Token, TokenAmount } from 'raydium-sdk-devnet'
+
 
 import { AnyFn, Numberish, Primitive, StringNumber } from '@/types/constants'
 

@@ -1,4 +1,7 @@
-import { ZERO } from '@raydium-io/raydium-sdk'
+// import { ZERO } from '@raydium-io/raydium-sdk'
+
+import { ZERO } from 'raydium-sdk-devnet'
+
 
 import { Numberish } from '@/types/constants'
 

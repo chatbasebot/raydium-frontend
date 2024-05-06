@@ -1,4 +1,7 @@
-import { Fraction } from '@raydium-io/raydium-sdk'
+// import { Fraction } from '@raydium-io/raydium-sdk'
+
+import { Fraction } from 'raydium-sdk-devnet'
+
 
 export function shakeFractionDecimal(n: Fraction, roundDirection: 'up' | 'down' = 'down'): string {
   const [, sign = '', int = '', dec = ''] = n.toFixed(2).match(/(-?)(\d*)\.?(\d*)/) ?? []
